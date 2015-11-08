@@ -13,8 +13,8 @@ LiteBbs::Engine.routes.draw do
   end
   resources :replies, only: [:edit, :update, :destroy]
   
-  match 'search' => 'search#index', as: :search
-  match 'advanced_search' => 'search#advance', as: :advanced_search
+  get  'search' => 'search#index', as: :search
+  get  'advanced_search' => 'search#advance', as: :advanced_search
   
   namespace :admin do
     root :to => 'home#index'
