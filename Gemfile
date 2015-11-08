@@ -7,6 +7,7 @@ gemspec
 
 # jquery-rails is used by the dummy application
 gem 'sass-rails'
+gem 'protected_attributes'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'haml-rails'
@@ -15,7 +16,7 @@ gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'will_paginate'
 gem 'rails_kindeditor'
-gem 'cancan'
+gem 'cancancan'
 gem 'ransack'
 gem 'mobylette'
 gem 'rspec-rails'
